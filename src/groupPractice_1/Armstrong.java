@@ -2,7 +2,7 @@ package groupPractice_1;
 
 public class Armstrong {
     public static void main(String[] args) {
-        System.out.println(isArmstrong(152));
+        System.out.println(isArmstrong(153));
 
     }
 
@@ -17,13 +17,14 @@ public class Armstrong {
 
        }*/
        int temp=number;//temp=153;
-       int temSum=1;
        while (temp>0){
+           int temSum=1;
           int eachDigit=temp%10;//153%10=15*10+3=3;
            for (int i = 0; i <pow; i++) {
             temSum*=eachDigit;//3*3*3
            }
            sum+=temSum;
+           temp/=10;
        }
 
 
