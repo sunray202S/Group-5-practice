@@ -1,4 +1,4 @@
-package Interview.Numbers;
+package groupPractice;
 
 public class BinaryRepresentationOfN {
     public static void main(String[] args) {

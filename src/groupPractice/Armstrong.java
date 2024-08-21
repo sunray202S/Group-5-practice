@@ -1,4 +1,4 @@
-package groupPractice_1;
+package groupPractice;
 
 public class Armstrong {
     public static void main(String[] args) {
